@@ -19,8 +19,8 @@ def main(
     # ---- REPLACE THIS WITH YOUR OWN CODE ----
     logger.info("Generating plot from data...")
     for i in tqdm(range(100), total=100):
-        if i == 5:
-            logger.info("Something happened for iteration 5.")
+        if i == 6:
+            logger.info("Something happened for iteration 6.")
     logger.success("Plot generation complete.")
     # -----------------------------------------
 
